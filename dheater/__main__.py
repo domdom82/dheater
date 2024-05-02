@@ -529,7 +529,7 @@ class ParseURI(argparse.Action):  # pylint: disable=too-few-public-methods
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Diffie-Hellman ephemeral key exchnage enforcer')
+    parser = argparse.ArgumentParser(description='Diffie-Hellman ephemeral key exchange enforcer')
     parser.add_argument(
         '--timeout', dest='timeout', default=L4ClientTCP.get_default_timeout(), type=float,
         help='socket timeout in seconds (default: %(default)ss)'
